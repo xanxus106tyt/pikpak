@@ -1090,7 +1090,7 @@ import axios from 'axios';
         key: 'base',
         disabled: row.kind !== 'drive#folder'
       },
-       {
+      {
          label: '分享到资源库',
          key: 'share',
          disabled: !row.hash
